@@ -11,8 +11,8 @@ function App() {
 
       <main className="dashboard-main">
         <div className="cards-container">
-          <StudentCard className= "studentCard" name= "Mohamed Kamaleldin" ID= "202338790" dept= "Information and Computer Science"/>
-          <StudentCard className= "studentCard" name= "Almaan Khan" ID= "20233890" dept= "Computer Engineering"/>
+          <StudentCard className= "studentCard" name= "Mohamed Kamaleldin" studentId= "202338790" dept= "Information and Computer Science"/>
+          <StudentCard className= "studentCard" name= "Almaan Khan" studentId= "20233890" dept= "Computer Engineering"/>
         </div>
       </main>
     </div>
