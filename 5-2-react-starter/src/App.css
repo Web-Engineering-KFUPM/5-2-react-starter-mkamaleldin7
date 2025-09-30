@@ -45,3 +45,21 @@
 }
 
 /* Add your custom styles below */
+
+.studentCard {
+  background-color: rgb(126, 196, 201);
+  color: black;
+  border-bottom: #667eea 4px solid;
+  border-left: #667eea 4px solid;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 250px;
+  text-align: center;
+}
+
+.studentCard:hover{
+  transform: scale(1.05);
+  transition: transform 0.4s ease;
+}
+
