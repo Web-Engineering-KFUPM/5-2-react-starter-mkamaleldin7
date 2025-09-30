@@ -11,8 +11,8 @@ function App() {
 
       <main className="dashboard-main">
         <div className="cards-container">
-          <StudentCard className= "studentCard" student={{name: "Mohamed Kamaleldin", ID: 202338790, dept: "Information and Computer Science"}}/>
-          <StudentCard className= "studentCard" student={{name: "Almaan Khan", ID: 20233890, dept: "Computer Engineering"}}/>
+          <StudentCard className= "studentCard" props={{name: "Mohamed Kamaleldin", ID: 202338790, dept: "Information and Computer Science"}}/>
+          <StudentCard className= "studentCard" props={{name: "Almaan Khan", ID: "20233890", dept: "Computer Engineering"}}/>
         </div>
       </main>
     </div>
