@@ -1,6 +1,8 @@
 import './App.css'
 import StudentCard from './components/StudentCard';
 
+// Main application component, Where we added the StudentCard components to display student information
+
 function App() {
   return (
     <div className="app">
@@ -10,7 +12,7 @@ function App() {
       </header>
 
       <main className="dashboard-main">
-        <div className="cards-container">
+        <div className="cards-container"> 
           <StudentCard className= "studentCard" name= "Mohamed Kamaleldin" studentId= "202338790" dept= "Information and Computer Science"/>
           <StudentCard className= "studentCard" name= "Almaan Khan" studentId= "20233890" dept= "Computer Engineering"/>
         </div>
